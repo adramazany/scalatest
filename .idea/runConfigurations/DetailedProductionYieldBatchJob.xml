@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DetailedProductionYieldBatchJob" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="de.muehlbauer.factoryleader.dataprocessing.lib.JobLauncher" />
+    <module name="detailed-production-yield-batch-job" />
+    <option name="PROGRAM_PARAMETERS" value="de.muehlbauer.factoryleader.dataprocessing.batch.detailedproductionyield.DetailedProductionYieldBatchWorker" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DetailedProductionYieldBatchJob" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root [file:/C:/Development/workspace/scalatest/spark_snippet/]" external.linked.project.path="$MODULE_DIR$/../../spark_snippet" external.root.project.path="$MODULE_DIR$/../../spark_snippet" external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../../spark_snippet/target/scala-2.13/classes" />
+    <output-test url="file://$MODULE_DIR$/../../spark_snippet/target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../spark_snippet">
+      <sourceFolder url="file://$MODULE_DIR$/../../spark_snippet/src/main/scala" isTestSource="false" packagePrefix="bip.spark.snippet" />
+      <sourceFolder url="file://$MODULE_DIR$/../../spark_snippet/src/test/scala" isTestSource="true" packagePrefix="bip.spark.snippet" />
+      <excludeFolder url="file://$MODULE_DIR$/../../spark_snippet/target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../spark_snippet/project/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+  </component>
+</module>

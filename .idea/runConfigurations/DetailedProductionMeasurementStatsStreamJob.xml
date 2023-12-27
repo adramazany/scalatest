@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DetailedProductionMeasurementStatsStreamJob" type="Application" factoryName="Application">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="de.muehlbauer.factoryleader.dataprocessing.lib.JobLauncher" />
+    <module name="detailed-production-measurement-stats-stream-job" />
+    <option name="PROGRAM_PARAMETERS" value="de.muehlbauer.factoryleader.dataprocessing.stream.detailedproductionmeasurementstats.DetailedProductionMeasurementStatsStreamWorker" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DetailedProductionMeasurementStatsStreamJob" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
