@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223407e1-5fbb-445a-89b3-93181742a29c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_snippet/src/main/scala/Main.scala" afterDir="false" />
-    </list>
+    <list default="true" id="223407e1-5fbb-445a-89b3-93181742a29c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +27,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spark_snippet" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spark_snippet" type="f1a62948:ProjectNode" />
-                <item name="spark_snippet" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -71,13 +62,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "temurin-11",
-    "last_opened_file_path": "D:/Development/workspaces/intellij/fL.DataProcessing",
+    "last_opened_file_path": "C:/Development/workspace/scalatest",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode.Scala"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\workspace\scalatest" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.HelloScalaSBTWorld">
     <configuration name="HelloScalaSBTWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="bip.spark.snippet.HelloScalaSBTWorld" />

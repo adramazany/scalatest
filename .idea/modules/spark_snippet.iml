@@ -5,6 +5,7 @@
     <output-test url="file://$MODULE_DIR$/../../spark_snippet/target/scala-2.13/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../spark_snippet">
+      <sourceFolder url="file://$MODULE_DIR$/../../spark_snippet/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../spark_snippet/src/main/scala" isTestSource="false" packagePrefix="bip.spark.snippet" />
       <sourceFolder url="file://$MODULE_DIR$/../../spark_snippet/src/test/scala" isTestSource="true" packagePrefix="bip.spark.snippet" />
       <excludeFolder url="file://$MODULE_DIR$/../../spark_snippet/target" />
