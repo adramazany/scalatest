@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223407e1-5fbb-445a-89b3-93181742a29c" name="Changes" comment="" />
+    <list default="true" id="223407e1-5fbb-445a-89b3-93181742a29c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spark_snippet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spark_snippet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kafka_read_topics_seq/bip/kafka/seqtopics/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kafka_read_topics_seq/bip/kafka/seqtopics/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$0250e985465e424c21cb$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$0250e985465e424c21cb.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$0250e985465e424c21cb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$3c9589bc02423e3b7352$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$3c9589bc02423e3b7352.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$3c9589bc02423e3b7352.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$56d635b9abb620fd26ea$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$56d635b9abb620fd26ea.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$56d635b9abb620fd26ea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$c4c3a57ec00f8a012fef$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$c4c3a57ec00f8a012fef.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/config-classes/$c4c3a57ec00f8a012fef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/src/main/scala/FindGapBetweenMultpleRange.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/src/main/scala/FindGapBetweenMultpleRange.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/scala-2.13/classes/bip/spark/snippet/HelloScalaSBTWorld$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/scala-2.13/classes/bip/spark/snippet/HelloScalaSBTWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/target/streams/_global/ivyConfiguration/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/spark_snippet/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/runtime/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/test/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_snippet/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log5340423796580721468.log" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +76,28 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spark_snippet" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spark_snippet" type="f1a62948:ProjectNode" />
+                <item name="spark_snippet" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spark_snippet" type="f1a62948:ProjectNode" />
+                <item name="spark_snippet" type="2d1252cf:ModuleNode" />
+                <item name="sbt commands" type="5c424813:SbtViewContributor$SbtCommandsGroupNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spark_snippet" type="f1a62948:ProjectNode" />
+                <item name="spark_snippet-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spark_snippet" type="f1a62948:ProjectNode" />
+                <item name="spark_snippet-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -74,7 +145,7 @@
       <recent name="C:\Development\workspace\scalatest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloScalaSBTWorld">
+  <component name="RunManager" selected="Application.KafkaDirectStream">
     <configuration name="HelloScalaSBTWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="bip.spark.snippet.HelloScalaSBTWorld" />
       <module name="spark_snippet" />
@@ -88,6 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KafkaDirectStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="KafkaDirectStream" />
+      <module name="spark_snippet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="bip.kafka.seqtopics.Main" />
       <module name="kafka_read_topics_seq" />
@@ -97,6 +175,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumWithListOfInt" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SumWithListOfInt" />
+      <module name="spark_snippet" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaDirectStream" />
+        <item itemvalue="Application.SumWithListOfInt" />
         <item itemvalue="Application.HelloScalaSBTWorld" />
         <item itemvalue="Application.bip.spark.snippet.Main" />
         <item itemvalue="Application.Main" />
