@@ -1,0 +1,15 @@
+/.bsp/
+/.idea/
+/project/project/
+/project/target/
+/target/
+/kafka_read_topics_seq/.bsp/
+/kafka_read_topics_seq/.idea/
+/kafka_read_topics_seq/project/project/
+/kafka_read_topics_seq/project/target/
+/kafka_read_topics_seq/target/
+/spark_snippet/.bsp/
+/spark_snippet/.idea/
+/spark_snippet/project/project/
+/spark_snippet/project/target/
+/spark_snippet/target/

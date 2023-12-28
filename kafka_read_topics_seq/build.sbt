@@ -24,8 +24,8 @@ libraryDependencies += "net.liftweb" % "lift-json_2.12" % lift_json_version
 //libraryDependencies += "com.holdenkarau" % "spark-testing-base_2.13" % "3.4.0_1.4.3" % "test"
 libraryDependencies += "org.postgresql" % "postgresql" % "42.3.1"
 
-lazy val spark_snippet = (project in file("."))
+lazy val kafka_read_topics_seq = (project in file("."))
   .settings(
-    name := "spark_snippet",
-    idePackagePrefix := Some("bip.spark.snippet")
+    name := "kafka_read_topics_seq",
+    idePackagePrefix := Some("bip.kafka.seqtopics")
   )
