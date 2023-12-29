@@ -11,21 +11,20 @@ val scalamock_version = "4.4.0"
 val mockito_scala_plugin_version = "1.16.37"
 val scalatest_plugin_version = "1.0"
 
-libraryDependencies += "org.apache.spark" % "spark-core_2.12" % spark_version
-libraryDependencies += "org.apache.spark" % "spark-streaming_2.12" % spark_version
-libraryDependencies += "org.apache.spark" % "spark-sql_2.12" % spark_version
-libraryDependencies += "org.apache.spark" % "spark-sql-kafka-0-10_2.12" % spark_version
-libraryDependencies += "org.apache.spark" % "spark-streaming-kafka-0-10_2.12" % spark_version
-libraryDependencies += "org.apache.spark" % "spark-hive_2.12" % spark_version
-libraryDependencies += "com.datastax.spark" % "spark-cassandra-connector_2.12" % spark_cassandra_connector_version
-libraryDependencies += "net.liftweb" % "lift-json_2.12" % lift_json_version
-////% "provided"
-//libraryDependencies += "org.scalatest" % "scalatest_3" % "3.2.16" % "test"
-//libraryDependencies += "com.holdenkarau" % "spark-testing-base_2.13" % "3.4.0_1.4.3" % "test"
-libraryDependencies += "org.postgresql" % "postgresql" % "42.3.1"
-
-lazy val kafka_read_topics_seq = (project in file("."))
+lazy val kafka_read_topics_seq = project
+  .in(file("."))
   .settings(
     name := "kafka_read_topics_seq",
-    idePackagePrefix := Some("bip.kafka.seqtopics")
+    idePackagePrefix := Some("bip.kafka.seqtopics"),
+    libraryDependencies ++= Seq(
+      "org.apache.spark" %% "spark-core" % "2.4.5",
+      "org.apache.spark" %% "spark-streaming" % spark_version,
+      "org.apache.spark" %% "spark-sql" % spark_version,
+      "org.apache.spark" %% "spark-sql-kafka-0-10" % spark_version,
+      "org.apache.spark" %% "spark-streaming-kafka-0-10" % spark_version,
+      "org.apache.spark" %% "spark-hive" % spark_version,
+      "com.datastax.spark" %% "spark-cassandra-connector" % spark_cassandra_connector_version,
+      "net.liftweb" %% "lift-json" % lift_json_version,
+      "org.postgresql" % "postgresql" % "42.3.1"
+    )
   )
