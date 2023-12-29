@@ -10,7 +10,7 @@
             <option value="$PROJECT_DIR$/kafka_read_topics_seq/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.8.0" />
+        <option name="sbtVersion" value="1.9.7" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/spark_snippet" />
