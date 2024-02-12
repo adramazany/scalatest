@@ -1,7 +1,0 @@
-[debug] > Exec(;project ; last, None, None)
-[debug] > Exec(project, None, None)
-[info] scalatest (in build file:/C:/Development/workspace/scalatest/)
-[debug] > Exec(last, None, None)
-[debug] > Exec(idea-shell, None, None)
-[debug] > Exec(, None, None)
-[debug] > Exec(idea-shell, None, None)
