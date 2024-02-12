@@ -1,7 +1,0 @@
-1703663653616:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/ramezania/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/ramezania/AppData/Roaming/JetBrains/IdeaIC2022.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2022.3.1/sbt-structure-extractor-2022.3.1.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
-1703666632103:dependancyTree
-1703666657758:addDependencyTreePlugin
-1703666670182:addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.10.0-RC1")
-1703666745758:cd ..
-1703666749391:git add .
-1703666754846:exit
