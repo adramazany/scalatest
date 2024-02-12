@@ -1,5 +1,8 @@
 package bip.spark.snippet
 
+import org.apache.spark.sql.functions.udf
+
+object TestUDF {
 val colors = Map("red" -> "#FF0000",
 	"green"->"#00FF00", 
 	"blue"->"#0000FF", 
@@ -10,6 +13,6 @@ val colors = Map("red" -> "#FF0000",
 val colorUDF = udf((color: String) => {
   val res = colors.find(t => t._1 == color)
   if (res.isDefined) 
-	return res.get._2 
-  else return None})
-	  
+	res.get._2
+  else None})
+}

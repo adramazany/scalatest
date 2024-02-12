@@ -21,6 +21,11 @@ import org.apache.kafka.common.serialization.StringSerializer
 import org.apache.spark.rdd.RDD
 import scala.collection.mutable.Queue
 import org.apache.kafka.clients.consumer.ConsumerRecord
+import org.apache.spark.SparkContext
+
+object TestKafkaStream {
+  lazy val conf = new SparkConf().setAppName("Problem1")
+  lazy val sc = new SparkContext(conf)
 
 val kafkaParams = Map[String, Object](
   "bootstrap.servers" -> "localhost:9092",
@@ -34,6 +39,7 @@ val kafkaParams = Map[String, Object](
 val topics = Array("LotChangedEvent", "RecipeChangedEvent", "StateChangedEvent", "OperatorLogEvent", "ProductionResultEvent")
 
 //ssc.stop()
+
 val ssc = new StreamingContext(sc, Seconds(2))
 val stream = KafkaUtils.createDirectStream[String, String](ssc,PreferConsistent,Subscribe[String, String](topics, kafkaParams))
 
@@ -50,3 +56,4 @@ stream.foreachRDD( rdd => {
 ssc.start
 //ssc.awaitTermination
 //ssc.stop()
+}

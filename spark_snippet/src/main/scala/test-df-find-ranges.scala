@@ -1,10 +1,15 @@
 package bip.spark.snippet
 
-import spark.implicits._
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.col
 import scala.collection.mutable.ListBuffer
+
+object TestDfFindRanges {
+	lazy val spark = SparkSession.builder().getOrCreate()
 
 val columns = Seq("timestamp","oc")
 val data = Seq((1, "C"), (5, "O"), (3, "C"), (4, "C"), (2, "O"), (6, "O"), (8, "C"), (7, "O"))
+import spark.implicits._
 val rdd = spark.sparkContext.parallelize(data)
 val df = rdd.toDF(columns:_*)
 
@@ -28,3 +33,4 @@ for(o <- df_o.rdd.collect){
 
 print(res.toSeq)
 
+}

@@ -23,7 +23,7 @@ object TestConstantInputDStream {
 // Sample stream computation
     println("ConstantInputDStream 0..9")
     cis.map(i => { println(i)
-      return i.toString }).print()
+      i.toString }).print()
     cis.foreachRDD(rdd => rdd.toString() )
     cis.print
 }

@@ -52,7 +52,7 @@ object TestStmtAddBatchClearBatch {
         println("id, text = " + id + ", " + text)
       }
     } catch {
-      case e => e.printStackTrace
+      case e: Throwable => e.printStackTrace
     }
     //connection.close()
   }
